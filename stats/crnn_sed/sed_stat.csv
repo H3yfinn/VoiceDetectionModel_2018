@@ -1,0 +1,24 @@
+
+
+
+# --------- Event wise evaluation ---------
+		Voice	Noise
+thres:     	0.1	0.5
+tp:        	9162	14682
+fn:        	1290	366
+fp:        	241052	323112
+tn:        	149536	62880
+precision: 	0.037	0.043
+recall:    	0.877	0.976
+f_value:   	0.070	0.083
+
+# --------- Total evaluation (Mix all events together) ---------
+total tp:      	23844
+total fn:      	1656
+total fp:      	564164
+total tn:      	212416
+
+total precision: 	0.041
+total recall:    	0.935
+total f_value:   	0.078
+total error_rate:	0.029
